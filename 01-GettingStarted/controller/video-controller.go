@@ -3,6 +3,7 @@ package controller
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-delve/delve/service"
+	"github.com/qbbang/GoGinFrameworkCrashCourse/entity"
 )
 
 type VideoController interface {
@@ -30,5 +31,4 @@ func (c *controller) Save(ctx *gin.Context) {
 	ctx.BindJSON(&video)
 	c.service.Save(video)
 	return video
-	)
 }

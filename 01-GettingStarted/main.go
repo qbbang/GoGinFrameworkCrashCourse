@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-delve/delve/service"
+	"github.com/qbbang/GoGinFrameworkCrashCours/01-GettingStarted/controller"
 )
 
 var (

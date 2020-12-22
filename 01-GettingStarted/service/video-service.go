@@ -1,6 +1,6 @@
 package service
 
-import "gitlab.com/pragmaticareviews/golang-gin-poc/entity"
+import "github.com/qbbang/GoGinFrameworkCrashCours/01-GettingStarted/entity"
 
 // 인터페이스 정의
 type VideoService interface {
